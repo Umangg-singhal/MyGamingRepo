@@ -7,9 +7,11 @@ public class MyGame {
     }
 
     public static void userName(){
+       System.out.println("Updated method of userName");
 
     }
     public static void main(String[] args) {
         loginPage();
+        userName();
     }
 }
